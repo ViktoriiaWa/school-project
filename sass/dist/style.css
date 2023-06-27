@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  color: #31261D;
+  font-size: 2rem;
+  background-color: #FFF8EB;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10%;
+  overflow: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title-1 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #2D221A;
+}
+
+.title-2 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.title-3 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: rgba(45, 34, 26, 0.44);
+}
+
+.title-4 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 6.4rem;
+  line-height: 7.8rem;
+  color: #BAAD94;
+}
+
+.site-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.5rem;
+  background: linear-gradient(176.74deg, #A79B85 2.69%, #C2B59A 87.87%, #817766 125.7%);
+  border-bottom: 0.9rem solid #81755E;
+  padding: 0 3.3%;
+}
+
+.accessibility-button {
+  padding: 0.7rem 4.6rem 0.7rem 4.6rem;
+  background-color: #FFF8EB;
+  border: none;
+  cursor: pointer;
+  color: rgba(45, 34, 26, 0.44);
+  width: 28.1rem;
+  border-radius: 2rem;
+  margin-bottom: 2%;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 10rem;
+}
+.search-box input[type=text] {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.site-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-links li {
+  margin-right: 3.3rem;
+}
+.site-links li:last-child {
+  margin-right: 0;
+}
+.site-links a {
+  color: #60594D;
+}
+.site-links a span {
+  text-decoration-line: underline;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-box form {
+  background: none;
+}
+
+.search-box input, .search-box button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.search-box input {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+}
+
+.search-box button {
+  height: 100%;
+  width: 2.7rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.search-box button:before {
+  content: url("../icons/arrow.svg");
+  color: #A39A8F;
+}
+
+.title-main-container {
+  position: relative;
+  height: 15vh;
+  width: 100%;
+  padding-top: 4.7rem;
+  margin-bottom: 6rem;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/main-bg.png);
+  opacity: 8%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  text-align: center;
+}
+.main-title span {
+  color: #3A3027;
+}
+.main-title-bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(3vw, -50%);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 12.8rem;
+  line-height: 15.526rem;
+  color: rgba(45, 34, 26, 0.05);
+  z-index: -1;
+}

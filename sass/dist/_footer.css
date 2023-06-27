@@ -1,0 +1,39 @@
+footer {
+  margin-top: 4.5rem;
+  width: 100%;
+}
+
+.footer-container {
+  width: 100%;
+  height: 16.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 5.8rem;
+}
+
+.footel-text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-top: 1.6rem;
+}
+
+.footer-line {
+  width: 100%;
+  border: 0.3rem solid #C4B99E;
+  margin-bottom: 5.1rem;
+}
+
+.footer-end {
+  width: 100%;
+  height: 5.3rem;
+  background: linear-gradient(176.74deg, #A79B85 2.69%, #C2B59A 87.87%, #817766 125.7%);
+  border-top: 1px solid #000;
+}

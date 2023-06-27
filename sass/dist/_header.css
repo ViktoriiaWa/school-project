@@ -1,0 +1,46 @@
+.title-main-container {
+  position: relative;
+  width: 100%;
+  padding-top: 4.7rem;
+  margin-bottom: 6rem;
+  box-sizing: border-box;
+  padding: 77px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
+  overflow: hidden;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/main-bg.png);
+  opacity: 8%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  text-align: center;
+}
+.main-title span {
+  color: #3A3027;
+}
+.main-title-bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(3vw, -50%);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 12.8rem;
+  line-height: 15.526rem;
+  color: rgba(45, 34, 26, 0.05);
+  z-index: -1;
+}

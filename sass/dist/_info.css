@@ -1,0 +1,18 @@
+.information-block-top {
+  display: flex;
+  align-items: center;
+  width: 17.7rem;
+}
+.information-block-top-icon {
+  margin-right: 10px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000;
+}
+
+.information-block-number {
+  margin-left: 10px;
+}

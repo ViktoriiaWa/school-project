@@ -1,0 +1,78 @@
+.site-menu
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 5.5rem
+  background: linear-gradient(176.74deg, #A79B85 2.69%, #C2B59A 87.87%, #817766 125.7%)
+  border-bottom: .9rem solid $color-border
+  padding: 0 3.3%
+
+.accessibility-button
+  padding: .7rem 4.6rem .7rem 4.6rem
+  background-color: $color-gray-light
+  border: none
+  cursor: pointer
+  color: $color-btn-version
+  width: 20%
+  border-radius: 2rem
+  margin-bottom: 2%
+
+.site-title
+  color: $color-title
+
+.search-box
+  display: flex
+  align-items: center
+  border: none
+  width: 10rem
+  input[type="text"]
+    border: none
+    outline: none
+    flex: 1
+    padding: 5px
+
+.search-button
+  background-color: transparent
+  border: none
+  cursor: pointer
+
+.site-links
+  display: flex
+  align-items: flex-end
+  list-style-type: none
+  gap: 15px
+  li
+    &:last-child
+      margin-right: 0
+      display: flex
+      flex-direction: row
+      align-items: center
+  a
+    color: #60594d
+    border-right: 2px solid #60594c
+    padding-right: 17px
+    padding-left: 10px
+    span
+      text-decoration-line: underline
+      text-decoration-position: under
+      text-underline-offset: .3rem
+
+.input
+  position: relative
+
+.input input[type=search]
+  width: 12rem
+  height: 2rem
+  background: $color-gray-light
+  border-radius: .5rem
+  outline: none
+  border: none
+  box-sizing: border-box
+  padding: 3px 34px 3px 13px
+  color: rgba(45, 34, 26, 0.44)
+  font-weight: 500
+
+.input img
+  position: absolute
+  left: 87px
+  top: 50%

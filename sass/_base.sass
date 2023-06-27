@@ -1,0 +1,57 @@
+$color-gray-light: #FFF8EB
+$color-gray-arrow: #A39A8F
+$color-beige: #BCB094
+$color-brown: #31261D
+$color-title: #2D221A
+$color-beige-dark: #63594E
+$color-border: #81755E
+$color-btn-version: rgba(45, 34, 26, 0.44)
+$color-main-title: #BAAD94
+$color-text: rgba(49, 38, 29, 0.8)
+
+@font-face
+    font-family: 'Gilroy', sans-serif
+    src: url('../fonts/Gilroy-Regular.ttf') format('truetype')
+    font-weight: 400
+
+@font-face
+    font-family: 'Gilroy', sans-serif
+    src: url('../fonts/Gilroy-Medium.ttf') format('truetype')
+    font-weight: 500
+
+@font-face
+    font-family: 'Gilroy', sans-serif
+    src: url('../fonts/Gilroy-Light.ttf') format('truetype')
+    font-weight: 300
+
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: inherit
+
+html
+    font-size: 62.5%
+
+body
+    font-family: "Gilroy", sans-serif
+    font-weight: 500
+    color: $color-brown
+    font-size: 2.4rem
+    line-height: 2.9rem
+    background-color: $color-gray-light
+
+ul
+    list-style: none
+
+.container
+    display: flex
+    flex-direction: column
+    padding-inline: 8%
+    overflow: hidden
+    position: relative
+
+a
+    text-decoration: none
+
+.hidden
+    overflow: hidden
